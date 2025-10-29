@@ -30,7 +30,7 @@ function Movies({addToWatchList, remFromWatchList,watchList}) {
   return (
     <div>
       <div className="p-2 text-center text-black-3xl font-bold">
-        Trending Movies
+        Top Rated Movies
       </div>
       <div className="flex flex-row gap-10 justify-center flex-wrap">
         {movies.map((movieObj) => {
